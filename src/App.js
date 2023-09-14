@@ -1,9 +1,17 @@
+import "./App.css";
 
-
+import { Header, Container, Footer, Hero } from "./Component/index";
 
 const App = () => {
   return (
-    <h1>hello world 3</h1>
-  )
-}
-export default App
+    <>
+      
+      <Container>
+        <Header />
+        <Hero />
+      </Container>
+      
+    </>
+  );
+};
+export default App;
