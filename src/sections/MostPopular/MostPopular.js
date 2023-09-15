@@ -17,7 +17,7 @@ const MostPopular = () => {
 
 
 const cards = cardArray.map(card => 
-<Card title={card.title}     image={card.image} category={card.category}   rate={card.rate}   download={card.download}/>
+<Card key = {card.id} title={card.title}     image={card.image} category={card.category}   rate={card.rate}   download={card.download}/>
 
 )
 /* <Card title="Fortnite" image={popular_01} category="Sandbox"    rate="3.8"   download="2.3M"/>
