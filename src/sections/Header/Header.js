@@ -1,12 +1,12 @@
 import "./Header.css";
 import logo from "../../images/logo.png"
-import NavItem from "../NavItems/NavItem";
-import Form from "../Form/Form";
-import NavBar from "../NavBar/NavBar";
+import NavItem from "../../Component/NavItems/NavItem";
+import Form from "../../Component/Form/Form";
+import NavBar from "../../Component/NavBar/NavBar";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-md navbar-dark cyborg-navbar">
         <div className="container">
           <a className="navbar-brand" href="#home">
             <img src={logo} alt="LOGO" />
@@ -23,20 +23,20 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <NavBar>
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0 cyb-ul">
               <NavItem>
-                <a className="nav-link text-light active" aria-current="page" href="#Home">
+                <a className="active " aria-current="page" href="#Home">
                   Home
                 </a>
               </NavItem>
               <NavItem>
-                <a className="nav-link text-light" href="#Browse">
+                <a className="" href="#Browse">
                   Browse
                 </a>
               </NavItem>
               <NavItem>
                 <a
-                  className="nav-link text-light"
+                  className=""
                   href="#Details"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -46,12 +46,12 @@ const Header = () => {
                 </a>
               </NavItem>
               <NavItem>
-                <a href= "#Streams" className="nav-link text-light" aria-disabled="true">
+                <a href= "#Streams" className="">
                   Streams
                 </a>
                 </NavItem>
               <NavItem>
-                <a href="#Profile" className="nav-link text-light" aria-disabled="true">
+                <a href="#Profile" className="">
                   Profile
                 </a>
               </NavItem>

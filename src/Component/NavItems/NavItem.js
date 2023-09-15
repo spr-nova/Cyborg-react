@@ -3,7 +3,7 @@ import "./NavItems.css"
 
 const NavItem = (props) => {
   return (
-    <li className="nav-item">
+    <li className="nav-item ">
         {props.children}
     </li>
   )

@@ -2,7 +2,7 @@
   background: url(../../images/banner-bg.jpg) no-repeat top right/cover;
   background-color: var(--color-dark);
   color: var(--color-light);
-  border-radius: var(--dist-secondary);
+  border-radius: var(--border-r-main);
   padding: var(--dist-primary);
 }
 .hero-text {

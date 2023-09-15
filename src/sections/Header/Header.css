@@ -1,0 +1,18 @@
+.cyborg-navbar {
+  min-height: 100px;
+}
+button {
+  background-color: var(--primary-color);
+}
+ul li{
+  padding: 10px;
+}
+ul li a {
+  color: var(--color-light);
+}
+ul li a:hover {
+  color: var(--primary-color)
+}
+ul li .active {
+  color: var(--primary-color)
+}

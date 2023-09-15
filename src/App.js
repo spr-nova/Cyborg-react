@@ -1,14 +1,16 @@
 import "./App.css";
 
-import { Header, Container, Footer, Hero } from "./Component/index";
+import {  Container } from "./Component/index";
+import { Header, Footer, Hero, MostPopular } from "./sections/index";
 
 const App = () => {
   return (
     <>
       
+      <Header />
       <Container>
-        <Header />
         <Hero />
+        <MostPopular/>
       </Container>
       
     </>
