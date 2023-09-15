@@ -1,25 +1,29 @@
-.most-popular-item{
-  flex: 1; 
+.most-popular-item {
+  flex: 1 25%;
+  min-width: 200px;
 }
 .card-wrapper {
   background-color: var(--color-dark);
-  border-radius:calc(var(--dist-secondary)/2) ;
-  padding: calc(var(--dist-secondary)/2);
-  margin: 10px
+  border-radius: calc(var(--dist-secondary) / 2);
+  padding: calc(var(--dist-secondary) / 2);
+  margin: 10px;
 }
-.most-popular-item-img{
+.most-popular-item-img {
   width: 100%;
-  border-radius: calc(var(--dist-secondary)/4);
+  border-radius: calc(var(--dist-secondary) / 4);
   margin-bottom: var(--dist-secondary);
 }
 .most-popular-item-content {
   display: flex;
   justify-content: space-between;
 }
-.most-popular-item-title  , .most-popular-item-content ul li span {
+.most-popular-item-title,
+.most-popular-item-content ul li span {
   font-size: 14px;
+}
+.most-popular-item-title {
+  line-height: 1.7;
 }
 .most-popular-item-title span {
   color: #959597;
-
 }

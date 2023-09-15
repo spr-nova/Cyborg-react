@@ -1,0 +1,7 @@
+.section-header h4 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.section-header h4 span {
+  color: var(--primary-color);
+}
