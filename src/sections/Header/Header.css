@@ -4,13 +4,13 @@
 button {
   background-color: var(--primary-color);
 }
-ul li{
+ul .nav-comp {
   padding: 10px;
 }
-ul li a {
+ul li .a-head {
   color: var(--color-light);
 }
-ul li a:hover {
+ul li .a-head:hover {
   color: var(--primary-color)
 }
 ul li .active {

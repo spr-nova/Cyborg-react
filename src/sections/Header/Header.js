@@ -25,18 +25,18 @@ const Header = () => {
           <NavBar>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 cyb-ul">
               <NavItem>
-                <a className="active " aria-current="page" href="#Home">
+                <a className="active a-head" aria-current="page" href="#Home">
                   Home
                 </a>
               </NavItem>
               <NavItem>
-                <a className="" href="#Browse">
+                <a className="a-head" href="#Browse">
                   Browse
                 </a>
               </NavItem>
               <NavItem>
                 <a
-                  className=""
+                  className="a-head"
                   href="#Details"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -46,12 +46,12 @@ const Header = () => {
                 </a>
               </NavItem>
               <NavItem>
-                <a href= "#Streams" className="">
+                <a href= "#Streams" className="a-head">
                   Streams
                 </a>
                 </NavItem>
               <NavItem>
-                <a href="#Profile" className="">
+                <a href="#Profile" className="a-head">
                   Profile
                 </a>
               </NavItem>

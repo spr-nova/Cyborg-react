@@ -1,0 +1,15 @@
+.section-wrapper {
+  background-color: var(--color-darkest);
+  border-radius: var(--dist-secondary);
+  padding: var(--dist-secondary);
+  margin-top: var(--dist-primary);
+}
+.section-header h4 {
+  font-size: 36px;
+  font-weight: 900;
+}
+.most-popular-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
