@@ -1,8 +1,8 @@
 import "./Header.css";
 import logo from "../../images/logo.png"
-import NavItem from "../../Component/NavItems/NavItem";
-import Form from "../../Component/Form/Form";
-import NavBar from "../../Component/NavBar/NavBar";
+import NavItem from "../../Components/NavItems/NavItem";
+import Form from "../../Components/Form/Form";
+import NavBar from "../../Components/NavBar/NavBar";
 const Header = () => {
   return (
     <>

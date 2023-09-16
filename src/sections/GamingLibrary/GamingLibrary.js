@@ -2,7 +2,7 @@ import {
   SectionHeader,
   SectionWrapper,
   CardgamingLibrary,
-} from "../../Component/index";
+} from "../../Components/index";
 import "./GamingLibrary.css";
 import libraryArray from "../../Data/GamingLibraryData";
 

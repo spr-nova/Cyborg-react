@@ -1,5 +1,5 @@
 import "./MostPopular.css";
-import { Card, SectionHeader, SectionWrapper } from "../../Component/index";
+import { Card, SectionHeader, SectionWrapper } from "../../Components/index";
 import cardArray from "../../Data/mostPopularData";
 const MostPopular = () => {
   return (
