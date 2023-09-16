@@ -1,13 +1,12 @@
 import "./Header.css";
 import logo from "../../images/logo.png"
 import NavItem from "../../Components/NavItems/NavItem";
-import Form from "../../Components/Form/Form";
 import NavBar from "../../Components/NavBar/NavBar";
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark cyborg-navbar">
-        <div className="container">
+        <div className="container head-container">
           <a className="navbar-brand" href="#home">
             <img src={logo} alt="LOGO" />
           </a>
@@ -56,7 +55,7 @@ const Header = () => {
                 </a>
               </NavItem>
             </ul>
-            <Form/>
+            {/* <Form/> */}
           </NavBar>
         </div>
       </nav>
