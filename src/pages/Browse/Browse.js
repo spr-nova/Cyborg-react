@@ -1,11 +1,12 @@
-import "./Browse.css"
+import "./Browse.css";
+import {MostPopular} from "../../sections/index";
 
 const Browse = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <MostPopular />
+    </>
+  );
+};
 
-export default Browse
+export default Browse;

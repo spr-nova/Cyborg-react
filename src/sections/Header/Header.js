@@ -1,15 +1,16 @@
 import "./Header.css";
-import logo from "../../images/logo.png"
+import logo from "../../images/logo.png";
 import NavItem from "../../Components/NavItems/NavItem";
 import NavBar from "../../Components/NavBar/NavBar";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark cyborg-navbar">
         <div className="container head-container">
-          <a className="navbar-brand" href="#home">
+          <Link to={"/Home"}>
             <img src={logo} alt="LOGO" />
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -24,38 +25,31 @@ const Header = () => {
           <NavBar>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 cyb-ul">
               <NavItem>
-                <a className="active a-head" aria-current="page" href="#Home">
+                <Link className="a-head active" to={"/Home"}>
                   Home
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-                <a className="a-head" href="#Browse">
+                <Link className="a-head" to={"/Browse"}>
                   Browse
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-                <a
-                  className="a-head"
-                  href="#Details"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                  >
+                <Link className="a-head" to={"/Details"}>
                   Details
-                </a>
+                </Link>
               </NavItem>
               <NavItem>
-                <a href= "#Streams" className="a-head">
+                <Link className="a-head" to={"/Streams"}>
                   Streams
-                </a>
-                </NavItem>
+                </Link>
+              </NavItem>
               <NavItem>
-                <a href="#Profile" className="a-head">
+                <Link className="a-head" to={"/Profile"}>
                   Profile
-                </a>
+                </Link>
               </NavItem>
             </ul>
-            {/* <Form/> */}
           </NavBar>
         </div>
       </nav>
