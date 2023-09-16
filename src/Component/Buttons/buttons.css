@@ -1,0 +1,11 @@
+.button a {
+  font-size: 14px;
+  color: var(--color-light);
+  border-radius: 25px;
+  padding: 12px 30px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s;
+}
+.primary-btn a {
+  background-color: var(--color-primary);
+}

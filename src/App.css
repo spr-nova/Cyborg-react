@@ -3,6 +3,7 @@
   --color-darkest: #1f2122;
   --color-light: White;
   --primary-color: #ec6090;
+  --secondary-color: #959597;
   --dist-primary: 50px;
   --dist-secondary: calc(var(--dist-primary) / 2);
   --border-r-main: var(--dist-secondary)

@@ -25,5 +25,5 @@
   line-height: 1.7;
 }
 .most-popular-item-title span {
-  color: #959597;
+  color: var(--secondary-color);
 }

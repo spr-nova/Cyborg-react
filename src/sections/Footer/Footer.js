@@ -2,9 +2,13 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <>
-      <h1>bye</h1>
-    </>
+    <footer>
+      <div className="container">
+        <div className="row">
+          <p>copyright c 2023</p>
+        </div>
+      </div>
+    </footer>
   );
 };
 export default Footer;
