@@ -1,0 +1,16 @@
+.detail-items-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 6%;
+  flex-wrap: wrap;
+}
+.photos-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: var(--dist-primary) 0 var(--dist-primary);
+  flex-wrap: wrap;
+}
+.photo-wrapper img {
+  border-radius: var(--dist-secondary);
+  margin-bottom: var(--dist-secondary);
+}

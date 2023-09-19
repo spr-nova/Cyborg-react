@@ -25,7 +25,7 @@ const Header = () => {
           <NavBar>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 cyb-ul">
               <NavItem>
-                <Link className="a-head active" to={"/Home"}>
+                <Link className="a-head active" to={"/"}>
                   Home
                 </Link>
               </NavItem>

@@ -16,7 +16,7 @@ const Card = (props) => {
               </h4>
               <ul>
                 <li><span style={{color: "yellow"}}><FaStar/></span><span>{props.rate}</span></li>
-                <li><span style={{color: "red"}}><FaDownload/></span><span>{props.download}</span></li>
+                <li><span style={{color: "var(--primary-color)" }}><FaDownload/></span><span>{props.download}</span></li>
                 
               </ul>
             </div>

@@ -1,0 +1,35 @@
+.section-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.feat-l img {
+  width: 100%;
+  border-radius: 23px;
+}
+
+@media (max-width: 1200px) {
+  .section-details {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .feat-r {
+    margin-bottom: 10px;
+    display: none;
+  }
+}
+
+.feat-r img {
+  border-radius: 23px;
+}
+
+.fortnite-details {
+  width: 100%;
+  text-align: center;
+  margin: 40px 0 10px;
+}
+.fortnite-details h2 {
+  font-size: 40px;
+  font-weight: 900;
+}

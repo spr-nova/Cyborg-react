@@ -4,4 +4,7 @@ export { default as CardgamingLibrary } from "./CardGamingLibrary/CardgamingLibr
 export { default as SectionHeader } from "./SectionHeader/SectionHeader";
 export { default as SectionWrapper } from "./SectionWrapper/SectionWrapper";
 export { default as PrimaryButton } from "./Buttons/Buttons";
-export { SecondaryButton as SecondaryButton } from "./Buttons/Buttons";
+export { SecondaryButton } from "./Buttons/Buttons";
+export { default as SectionDetails} from "./../Components/SectionDetails/SectionDetails"
+export { default as DetailsItemL} from "./DetailsItemL/DetailsItemL"
+export { default as DetailsItemR} from "./DetailsItemR/DetailsItemR"

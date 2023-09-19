@@ -1,0 +1,18 @@
+.item-r {
+  background-color: var(--color-dark);
+  border-radius: 23px;
+  align-items: center;
+  padding: 40px 0;
+  flex: 1 1 47%;
+
+}
+.item-r ul {
+  padding: 0 ;
+  display: flex;
+  justify-content: space-around
+}
+.item-r ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

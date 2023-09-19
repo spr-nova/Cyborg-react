@@ -1,11 +1,11 @@
-import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle";
 import "./App.css";
 
-import { Home, Browse } from "./pages/index";
+import { Home, Browse, Details } from "./pages/index";
 import { Header, Footer } from "./sections/index";
-import { Container } from "./Components/index"
-
+import { Container } from "./Components/index";
 
 const App = () => {
   return (
@@ -14,9 +14,9 @@ const App = () => {
         <Header />
         <Container>
           <Routes>
-            <Route path="/Home" element={<Home/>}/>
-            <Route path="/Browse" element={<Browse />}/>
-            
+            <Route path="/" element={<Home />} />
+            <Route path="/Browse" element={<Browse />} />
+            <Route path="/Details" element={<Details />} />
           </Routes>
         </Container>
         <Footer />

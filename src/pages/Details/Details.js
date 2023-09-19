@@ -1,30 +1,40 @@
-import "./Details.css"
+import "./Details.css";
+import {
+  DetailsItemL,
+  SectionDetails,
+  SectionWrapper,
+  DetailsItemR,
+} from "../../Components/index";
+import details_01 from "../../images/details-01.jpg";
+import details_02 from "../../images/details-02.jpg";
+import details_03 from "../../images/details-03.jpg";
 
 const Details = () => {
   return (
-    // <div class="container">
-    // <div class="row">
-    //   <div class="col-lg-12">
-    //     <div class="page-content">
-
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="feature-banner header-text">
-                <div className="row">
-                  <div className="col-lg-4">
-                    <img src="assets/images/feature-left.jpg" alt="" style="border-radius: 23px;"/>
-                  </div>
-                  <div className="col-lg-8">
-                    <div className="thumb">
-                      <img src="assets/images/feature-right.jpg" alt="" style="border-radius: 23px;"/>
-                      <a href="https://www.youtube.com/watch?v=r1b03uKWk_M" target="_blank"><i className="fa fa-play"/></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+    <>
+      <SectionDetails />
+      <SectionWrapper>
+        <div className="detail-items-wrapper">
+          <DetailsItemL />
+          <DetailsItemR />
+        </div>
+        <div className="photos-wrapper">
+          <div className="photo-wrapper">
+            <img src={details_01} alt="details" />
           </div>
-  )
-}
+          <div className="photo-wrapper">
+            <img src={details_02} alt="details" />
+          </div>
+          <div className="photo-wrapper">
+            <img src={details_03} alt="details" />
+          </div>
+        </div>
+        <div className="discription-p">
+          <p>This is my First react Project </p>
+        </div>
+      </SectionWrapper>
+    </>
+  );
+};
 
-export default Details
+export default Details;

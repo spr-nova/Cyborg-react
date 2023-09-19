@@ -1,0 +1,16 @@
+.items-l {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 47%;
+  padding: 16px;
+  background-color: var(--color-dark);
+  border-radius: 25px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+.item-l-title span:last-child {
+  color: var(--secondary-color);
+}
+.items-l ul li:first-child {
+  margin-bottom: 30px;
+}
