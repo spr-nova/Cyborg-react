@@ -13,4 +13,5 @@
 .photo-wrapper img {
   border-radius: var(--dist-secondary);
   margin-bottom: var(--dist-secondary);
+  
 }

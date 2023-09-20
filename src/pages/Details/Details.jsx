@@ -5,6 +5,7 @@ import {
   SectionWrapper,
   DetailsItemR,
 } from "../../Components/index";
+
 import details_01 from "../../images/details-01.jpg";
 import details_02 from "../../images/details-02.jpg";
 import details_03 from "../../images/details-03.jpg";
@@ -27,6 +28,7 @@ const Details = () => {
           </div>
           <div className="photo-wrapper">
             <img src={details_03} alt="details" />
+            
           </div>
         </div>
         <div className="discription-p">

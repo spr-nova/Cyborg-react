@@ -19,10 +19,26 @@
     display: none;
   }
 }
+.feat-r {
+  position: relative;
+
+}
 
 .feat-r img {
   border-radius: 23px;
 }
+.feat-r a  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.feat-r a span {
+  font-size: 40px;
+  color: var(--primary-color);
+}
+
 
 .fortnite-details {
   width: 100%;
