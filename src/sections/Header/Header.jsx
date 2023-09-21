@@ -4,6 +4,7 @@ import NavItem from "../../Components/NavItems/NavItem";
 import NavBar from "../../Components/NavBar/NavBar";
 import { Link } from "react-router-dom";
 const Header = () => {
+
   return (
     <>
       <nav className="navbar navbar-expand-md navbar-dark cyborg-navbar">
@@ -29,7 +30,7 @@ const Header = () => {
                   Home
                 </Link>
               </NavItem>
-              <NavItem>
+              <NavItem  >
                 <Link className="a-head" to={"/Browse"}>
                   Browse
                 </Link>

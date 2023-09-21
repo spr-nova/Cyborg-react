@@ -15,3 +15,6 @@
   margin-bottom: var(--dist-secondary);
   
 }
+.discription-p p {
+  text-align: center;
+}
