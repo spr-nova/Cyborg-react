@@ -1,9 +1,9 @@
 import "./NavItems.css"
-
+import {Link} from "react-router-dom";
 
 const NavItem = (props) => {
   return (
-    <li className="nav-item nav-comp">
+    <li className={props.className}>
         {props.children}
     </li>
   )

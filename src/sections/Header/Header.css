@@ -8,11 +8,13 @@ button {
 }
 ul .nav-comp {
   padding: 10px;
+
 }
-ul li .a-head {
+ul li .a-head{
   color: var(--color-light);
 }
-ul li .a-head:hover {
+
+ul .a-head:hover {
   color: var(--primary-color)
 }
 ul li .active {

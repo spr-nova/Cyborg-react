@@ -10,6 +10,7 @@
 }
 .most-popular-item-img {
   width: 100%;
+  height: 22vh;
   border-radius: calc(var(--dist-secondary) / 4);
   margin-bottom: var(--dist-secondary);
 }
