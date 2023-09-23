@@ -1,16 +1,18 @@
 .most-popular-item {
-  flex: 1 25%;
   min-width: 200px;
+  transition: .3s;
+}
+.most-popular-item:hover {
+  transform: scale(1.1);
 }
 .card-wrapper {
   background-color: var(--color-dark);
   border-radius: calc(var(--dist-secondary) / 2);
   padding: calc(var(--dist-secondary) / 2);
-  margin: 10px;
 }
 .most-popular-item-img {
   width: 100%;
-  height: 22vh;
+  height: 25vh;
   border-radius: calc(var(--dist-secondary) / 4);
   margin-bottom: var(--dist-secondary);
 }

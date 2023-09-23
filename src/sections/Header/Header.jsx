@@ -15,20 +15,21 @@ const Header = () => {
   
   
   const [appState, setAppState] = useState({
-    activeObject: null,
+    activeObject: 1,
     objects: [{id: 1}, {id: 2}, {id: 3}, {id: 4}, {id: 5},]
   });
 
-function toggleActive (index){
-  setAppState({...appState, activeObject: appState.objects[index]})
-}
-function toggleActiveStyle (index){
-  if(appState.objects[index] === appState.activeObject){
-    return "a-head active"
-  }else {
-    return "a-head inactive"
+  function toggleActiveStyle (index){
+    
+    if(appState.activeObject === appState.objects[index] ){
+      return "a-head active"
+    }else {
+      return "a-head inactive"
+    }
   }
-}
+  function toggleActive (index){
+    setAppState({...appState, activeObject: appState.objects[index]})
+  }
 
 
 
@@ -59,12 +60,11 @@ function toggleActiveStyle (index){
           <NavBar>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 cyb-ul">
               { appState.objects.map((elements, index) =>(
+                  console.log(elements,index),
                 <NavItem key={index} className="nav-item nav-comp">
                   <Link to={navLi[index]}>
-                    <span className={toggleActiveStyle(index)} onClick={() => {toggleActive(index)}}>{nav[index]}</span>
+                    <span onClick={() => {toggleActive(index)}} className={toggleActiveStyle(index)}>{nav[index]}</span>
                   </Link>
-                  
-                  
                 </NavItem>
               ))}
     

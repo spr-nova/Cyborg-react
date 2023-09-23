@@ -37,7 +37,7 @@ const Details = () => {
             "Exciting news! 🚀 My very first React project is here!"
             "I've poured my heart into it and can't wait to share."
             "Hope you'll take a look and find it as exciting as I do!"
-            "Your feedback means the world to me! 🙏❤️</p>
+            "Your feedback means the world to me! ❤️</p>
         </div>
       </SectionWrapper>
     </>
