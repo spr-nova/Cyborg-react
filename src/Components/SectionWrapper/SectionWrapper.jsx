@@ -8,4 +8,4 @@ const SectionWrapper = (props) => {
   )
 }
 
-export default SectionWrapper
+export {SectionWrapper}

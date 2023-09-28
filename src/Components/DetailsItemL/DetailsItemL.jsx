@@ -30,4 +30,4 @@ const DetailsItemL = () => {
   )
 }
 
-export default DetailsItemL
+export  {DetailsItemL}

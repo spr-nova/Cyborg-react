@@ -1,6 +1,6 @@
 import "./MostPopular.css";
 import { Card, SectionHeader, SectionWrapper } from "../../Components/index";
-import cardArray from "../../Data/mostPopularData";
+import {cardArray} from "../../Data/MostPopularData";
 const MostPopular = () => {
   return (
     <SectionWrapper>
@@ -23,4 +23,4 @@ const cards = cardArray.map((card) => (
   />
 ));
 
-export default MostPopular;
+export  {MostPopular};

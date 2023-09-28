@@ -1,7 +1,7 @@
 import "./Card.css"
 import {FaStar, FaDownload} from "react-icons/fa6"
 
-const Card = (props) => {
+export const Card = (props) => {
   return (
     <div className="most-popular-item">
           <div className="card-wrapper">
@@ -25,4 +25,3 @@ const Card = (props) => {
   )
 }
 
-export default Card

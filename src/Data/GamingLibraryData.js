@@ -9,4 +9,4 @@ const libraryArray = [
   , {id: "1", title:"PubG",     image: GamingLibrary_02,   category: "Stream-X",   data_added: "10/09/2023",   hours_played: "700 H", download: "download"}
   , {id: "2", title:"Dota 2",   image: GamingLibrary_03,   category: "Legendary",  data_added: "02/07/2023",   hours_played: "920 H", download: "Downloaded"}
 ]
-export default libraryArray
+export {libraryArray}

@@ -23,4 +23,4 @@ const SectionDetails = () => {
   )
 }
 
-export default SectionDetails
+export {SectionDetails}

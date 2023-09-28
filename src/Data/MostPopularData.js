@@ -19,4 +19,4 @@ const cardArray = [
   , {id: "6", title:"Dota 2",   image: popular_07,  category: "Legendary",  rate: "2.3",   download: "29.3M"}
   , {id: "7", title:"Cs-Go",    image: popular_08,  category: "Stream-X",   rate: "4.2",   download: "1.1M"}
 ]
-export default cardArray
+export {cardArray}

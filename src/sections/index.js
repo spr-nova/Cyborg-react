@@ -1,0 +1,5 @@
+export {Header} from "./Header/Header"
+export {Footer} from "./Footer/Footer"
+export {Hero} from "./Hero/Hero"
+export {MostPopular} from "./MostPopular/MostPopular"
+export {GamingLibrary} from "./GamingLibrary/GamingLibrary"

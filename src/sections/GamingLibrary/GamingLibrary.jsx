@@ -1,10 +1,10 @@
+import "./GamingLibrary.css";
 import {
   SectionHeader,
   SectionWrapper,
   CardgamingLibrary,
 } from "../../Components/index";
-import "./GamingLibrary.css";
-import libraryArray from "../../Data/GamingLibraryData";
+import {libraryArray} from "../../Data/GamingLibraryData";
 
 const library = libraryArray.map((card) => (
   <CardgamingLibrary
@@ -31,4 +31,4 @@ const GamingLibrary = () => {
   );
 };
 
-export default GamingLibrary;
+export  {GamingLibrary};

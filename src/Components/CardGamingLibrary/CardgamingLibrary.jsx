@@ -1,7 +1,7 @@
-import { SecondaryButton } from "../Buttons/Buttons"
+import {SecondaryButton} from "../Buttons/Buttons"
 import "./CardGamingLibrary.css"
 
-const CardgamingLibrary = (props) => {
+export const CardgamingLibrary = (props) => {
   return (
     <div className="gaming-library-card">
       <ul>
@@ -16,4 +16,3 @@ const CardgamingLibrary = (props) => {
   )
 }
 
-export default CardgamingLibrary

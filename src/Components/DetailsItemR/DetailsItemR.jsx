@@ -13,4 +13,4 @@ const DetailsItemR = () => {
   )
 }
 
-export default DetailsItemR
+export {DetailsItemR}

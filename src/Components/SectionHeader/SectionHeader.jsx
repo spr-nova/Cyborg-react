@@ -8,4 +8,4 @@ const SectionHeader = (props) => {
   )
 }
 
-export default SectionHeader
+export {SectionHeader}
